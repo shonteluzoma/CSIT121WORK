@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Kitten JPG</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="abduction.html">Abduction GIF</a>
+        <a href="heart.html">Heart PNG</a>
+        <a href="kitten.html" class="active">Red Kitten JPG</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <h1>Red Kitten JPG</h1>
+    <p>This is a jpg image showing a cute red kitten. I chose it because I really love kittens but I can't get one just yet. I got this jpg from google images under the creative commons license.</p>
+
+    <img src="images/Red_Kitten_01.jpg" alt="A red kitten looking straight ahead.">
+
+    <p>Image Source:
+        <a href="https://commons.wikimedia.org/wiki/File:Red_Kitten_01.jpg" target="_blank">
+            click here to see original source on Wikimedia Commons
+        </a>
+    </p>
+
+    <a href="index.html">Back to Gallery</a>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+</body>
+</html>

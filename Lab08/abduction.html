@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abduction GIF</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="abduction.html" class="active">Abduction GIF</a>
+        <a href="heart.html">Heart PNG</a>
+        <a href="kitten.html">Red Kitten JPG</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <h1>Abduction GIF</h1>
+    <p>This is a gif showing a mini alien invasion of an animal. I chose it because I thought it was cute and I liked the colors. I got this gif from google images under the creative commons license.</p>
+    
+    <img src="images/abduction.gif" alt="A very small alien invasion of a unspecified animal.">
+
+    <p>Image Source:
+        <a href="https://www.deviantart.com/giant-kaiju/art/Abduction-animated-pixel-gif-672683620" target="_blank">
+            click here to see original source on Deviant Art
+        </a>
+    </p>
+
+    <a href="index.html">Back to Gallery</a>
+
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
+</body>
+</html>
+

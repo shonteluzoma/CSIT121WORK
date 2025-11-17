@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab08</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="abduction.html">Abduction GIF</a>
+        <a href="heart.html">Heart PNG</a>
+        <a href="kitten.html">Red Kitten JPG</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <h1>Welcome to My Image Gallery</h1>
+    <p>This site is a small image gallery for my CSIT 121 class. It includes GIF, PNG, and JPG images.</p>
+    <ul>
+        <li><a href="abduction.html">View Abduction GIF</a></li>
+        <li><a href="heart.html">View Heart PNG</a></li>
+        <li><a href="kitten.html">View Red Kitten JPG</a></li>
+    </ul> 
+     <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>  
+</body>
+</html>
